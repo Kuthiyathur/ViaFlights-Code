@@ -12,6 +12,13 @@ public class WebDriverDto {
 	private String Gender;
 	private String Search;
 	private String BookFlight;
+	
+	private String TravellerDetails;
+	private String TravellerFirstname;
+	private String TravellerLastname;
+	private String TravellerSendkeyFname;
+	private String TravelerSendkeyLname;
+	
 
 	public String getDesstinationclickXPath() {
 		return DesstinationclickXPath;
@@ -79,6 +86,36 @@ public class WebDriverDto {
 	}
 	public void setDatePickerXpath(String datePickerXpath) {
 		DatePickerXpath = datePickerXpath;
+	}
+	public String getTravellerDetails() {
+		return TravellerDetails;
+	}
+	public void setTravellerDetails(String travellerDetails) {
+		TravellerDetails = travellerDetails;
+	}
+	public String getTravellerFirstname() {
+		return TravellerFirstname;
+	}
+	public void setTravellerFirstname(String travellerFirstname) {
+		TravellerFirstname = travellerFirstname;
+	}
+	public String getTravellerLastname() {
+		return TravellerLastname;
+	}
+	public void setTravellerLastname(String travellerLastname) {
+		TravellerLastname = travellerLastname;
+	}
+	public String getTravelerSendkeyLname() {
+		return TravelerSendkeyLname;
+	}
+	public void setTravelerSendkeyLname(String travelerSendkeyLname) {
+		TravelerSendkeyLname = travelerSendkeyLname;
+	}
+	public String getTravellerSendkeyFname() {
+		return TravellerSendkeyFname;
+	}
+	public void setTravellerSendkeyFname(String travellerSendkeyFname) {
+		TravellerSendkeyFname = travellerSendkeyFname;
 	}
 	
 	

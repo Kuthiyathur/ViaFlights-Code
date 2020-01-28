@@ -23,6 +23,10 @@ public class SingleTrip {
           driver.findElement(By.xpath(dto.getGender())).click();
           driver.findElement(By.xpath(dto.getSearch())).click();
           driver.findElement(By.xpath(dto.getBookFlight())).click();
+          //Traveller Details 
+          driver.findElement(By.xpath(dto.getTravellerDetails())).click();
+          driver.findElement(By.xpath(dto.getTravellerFirstname())).sendKeys("kuthiyathur");
+          driver.findElement(By.xpath(dto.getTravellerLastname())).sendKeys("Kanishka");
 	}
 
 }
